@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+html,
+body{
+    width: 100%;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.intro p:first-of-type{
+    font-size: 50px;
+    margin-bottom: 0;
+    color: hsl(0, 0%, 59%);
+}
+
+b{
+    color: black;
+}
+
+.intro p:last-of-type{
+    text-align: center;
+    font-size: 20px;
+}
